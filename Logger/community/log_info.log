@@ -1,0 +1,5 @@
+2023-08-28 19:24:57,870 INFO [main] c.m.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 1.8.0_202 on GSC_Leo_ROG_Z16 with PID 22268 (started by gaos_ in C:\Users\gaos_\Dev\IdeaProjects\MyCoder\community\community)
+2023-08-28 19:24:57,871 INFO [main] c.m.c.LoggerTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-08-28 19:24:58,747 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-08-28 19:24:58,990 INFO [main] c.m.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 1.33 seconds (JVM running for 1.732)
+2023-08-28 19:24:59,119 INFO [main] c.m.c.LoggerTests [LoggerTests.java:23] info log
