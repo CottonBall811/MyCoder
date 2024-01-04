@@ -6,6 +6,7 @@ import com.mycoder.community.dao.UserMapper;
 import com.mycoder.community.entity.DiscussPost;
 import com.mycoder.community.entity.LoginTicket;
 import com.mycoder.community.entity.User;
+import com.mycoder.community.util.CommunityUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,13 +60,13 @@ public class MapperTests {
 
     @Test
     public void updateUser(){
-        int rows = userMapper.updateStatus(150, 1);
-        System.out.println(rows);
+//        int rows = userMapper.updateStatus(150, 1);
+//        System.out.println(rows);
+//
+//        rows = userMapper.updateHeader(150, "http://www.nowcoder.com/102.png");
+//        System.out.println(rows);
 
-        rows = userMapper.updateHeader(150, "http://www.nowcoder.com/102.png");
-        System.out.println(rows);
-
-        rows = userMapper.updatePassword(150, "hello");
+        int rows = userMapper.updatePassword(151, CommunityUtil.md5("123456" + "d720b"));
         System.out.println(rows);
     }
 
